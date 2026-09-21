@@ -1,0 +1,101 @@
+
+ section h1:first-child{
+    background-color: green;
+}
+
+section p:first-of-type{
+    background-color: red;
+}
+
+section h1:last-child{
+    background-color: blue;
+}
+
+section p:last-child{
+    background-color: purple;
+}
+
+section p:nth-of-type(3){
+    background-color: yellow;
+} 
+
+ section h1:nth-child(evev){
+    background-color: red;
+}
+
+section h1:nth-child(2n-1){
+    background-color: orange;
+} 
+                                                             /* Friday  */
+
+.box{
+       height: 240px;
+       width: 240px;
+       background-color: yellow;
+       color: burlywood;
+       border: 2px solid black;
+       padding: 20px;
+       padding-left: 100px;
+       padding-right: 100px;
+       padding-top: 0px;
+       margin: 100px;
+       margin-left: 50px;
+}
+
+.first{
+        margin-left: 550px;
+        margin-top: -365px;
+}
+
+.second{
+         margin-left: 1050px;
+         margin-top: -365px;
+}
+
+ .third{
+             margin-left: 50px;
+             margin-top:  105px;
+} 
+
+.four{
+
+        margin-left: 550px;
+        margin-top:  -365px;
+} 
+
+
+
+
+
+
+/* body{
+        background-color: black;
+}
+.box{
+   background-color: purple;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    text-align: center;
+}
+
+.child{
+         height: 400px;
+         width: 400px;
+         background-color: yellow;
+         position: absolute;
+         top: 50px;
+         left: 100px;
+}
+
+.child2{
+            height: 300px;
+            width: 300px;
+            position: relative;
+            background-color: red;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+} */
