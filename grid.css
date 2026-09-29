@@ -1,0 +1,71 @@
+.parent{
+               height: 100vh;
+               width: 100%;
+               background-color: black;
+               padding: 10px;
+               display: grid;
+               grid-template-columns: repeat(3,1fr);
+               grid-template-rows: repeat(4,1fr);
+               gap: 5px;
+}
+
+.parent .child{
+                    background-color: yellow;
+                    border: 3px solid;
+                    text-align: center;
+                    color: white;      
+                    box-shadow: 0px 0px 10px 0px;                 
+}
+
+.Header{
+          grid-column-start: 1;
+          grid-column-end: 4;
+          background-image: url(https://img.freepik.com/premium-photo/abstract-rainbow-colorful-bright-feather-closeup-up-macro-view-background-plumage-texture-with-dew-drops_753134-644.jpg?w=2000);
+          background-position: center;
+          background-size: cover;      
+}
+
+.sidebar{
+             grid-row-start: 2;
+             grid-row-end: 4;
+             background-image: url(https://wallpapers.com/images/file/image-background-02pncybdeif1jvym.jpg);
+             background-position: center;
+             background-size: cover;
+}
+
+.content1{
+               grid-column-start: 2;
+               grid-column-end: 4;
+               background-image: url(https://wallpaperaccess.com/full/81237.jpg);
+               background-position: center;
+               background-size: cover;
+}
+
+.content2{
+             background-image: url(https://png.pngtree.com/background/20230517/original/pngtree-nature-wallpaper-a-path-in-beautiful-park-picture-image_2640870.jpg);
+             background-position: center;
+             background-size: cover;
+}
+
+.content3{
+            background-image: url(https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
+            background-position: center;
+            background-size: cover;
+}
+
+.Footer{
+         grid-column-start: 1;
+         grid-column-end: 4;
+         background-image: url(http://getwallpapers.com/wallpaper/full/1/6/8/1235689-free-nice-hd-background-wallpaper-1920x1080.jpg);
+         background-size: cover;
+         background-position: center;
+}
+
+.sidebar h1{
+               color: black;
+              
+}
+
+.content1 h1{
+                  /* color: orange; */
+}
