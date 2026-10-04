@@ -1,0 +1,58 @@
+.parent{
+              height: 200px;
+              width: 200px;
+              background-color: orange;
+              position: relative;
+              animation-name: Vineet;
+              animation-duration: 10s;
+              animation-iteration-count: infinite;
+              /* animation-timing-function: ease; */
+}
+
+/* @keyframes Vineet {
+
+
+    0%{
+          transform: translateY(0px) rotateX(0deg);
+    }
+      50%{
+            transform: translateY(-500px) rotateX(1080deg);
+            width: 200px;
+            border: 5px solid black;
+
+
+      }
+
+         100%{
+                     transform: translateY(300px) rotateY(1080deg);
+                     transition: 5s;
+         }
+    
+} */
+
+@keyframes Vineet {
+
+    0%{
+          top: 0%; left: 0;
+          background-color: red;
+    }
+
+          25%{
+                top: 0%; left: 1100px;
+                transform: rotate(360deg);
+                background-color: green ;
+          }
+
+              50%{
+                     top: 450px; left: 1100px;
+                     background-color: black;
+                      transform:rotate(360deg);                      }
+
+                  75%{      
+                         left: 0; top: 450px;
+                         background-color: blue;
+                         border-radius: 50%;  
+                          
+                                                     }
+}
+
