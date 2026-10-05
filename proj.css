@@ -1,0 +1,338 @@
+*{ 
+    margin: 0%;
+    padding: 0;
+}
+
+.mainbody{
+             height: 1000px;
+             width: 100%;
+             background-color: orange;
+}
+
+.navbar{
+           height: 80px;
+           width: 90%;
+           background-color: royalblue;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           margin-left: 70px;
+           position: relative;
+           top: 50px;
+           border-radius: 100px;
+           z-index: 1;
+           box-shadow: 2px 2px 0px 0px white;
+}
+
+.navbar a{
+                  color: white;
+                  font-size: 25px;
+                  text-decoration: none;
+                  padding-left: 30px;
+}
+
+.navbar .second{
+                  height: 80px;
+
+}
+
+.navbar div img{
+                   height: inherit;
+                   border-radius: 100px;
+}
+
+.home{
+         height: 80vh;
+         width: 100%;
+         background-color: white;
+         background-image: url(./images/ngc1300-spiral-galaxy-hubble.webp);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         opacity: 100%;
+}
+
+.mainbody .third{
+                        padding: 30px;
+                        color: white;
+
+}
+
+.mainbody .third p::first-letter{
+                                         font-size: 50px;
+                                         color: yellow;
+                     
+}
+
+  
+/*  From Here Code is for Services */
+
+.services {
+                  height: 100vh;
+                  width: 100%;
+                  /* background-color: black;            */
+                  background: linear-gradient(orange,white,green);
+}
+
+.services .first{
+                        height: 120px;
+                        background-color: black;
+                        color: white;                      
+}
+
+.services .first h1{
+                           font-size: 60px;
+                           text-align: center;
+                           font-weight: 600;
+                           /* text-decoration-line: underline; */
+                           text-underline-offset: 15px;
+}
+
+.services .second {
+                              height: 85vh;
+                              /* background-color: orange; */
+                              display: flex;
+                              align-items: center;
+                              justify-content: space-evenly;
+                              animation: ok 3s  infinite alternate;
+}
+
+/* This code move card from left to right */
+
+@keyframes ok {
+                              0%{
+                                     transform: translateX(-80px);
+                              }
+                               100%{
+                                       transform: translateX(80px);
+                               }
+}
+
+/* This code pop-up cards */
+
+ .services .second .card:hover{
+                           transform: scale(1.2);
+                           /* box-shadow: 0p 0px 30px 4px red; */
+}
+
+.services .second .card{
+                               height: 400px;
+                               width: 300px;
+                               background-color: antiquewhite;
+                               border-radius: 10px;
+                               position: relative;
+                               overflow: hidden; 
+                               background: transparent;   
+                               /* box-shadow: 2px 2px 30px 3px red;                            */
+                               transform: scale(1);
+                               transition: 1s;
+}
+
+.services .second .card::before{
+                                        content: ""; 
+                                        position: absolute;
+                                        inset: -3px;
+                                        background: conic-gradient(
+                                          red,
+                                          yellow,                              
+                                          blue,
+                                          magenta,
+                                          red
+             
+                                        );
+                                         border-radius: 5px;
+                                         z-index: 1;
+                                         box-shadow: 2px 2px 3px 30px 3px red;
+                                         animation: spin 7s  ease infinite;                                        
+}
+
+.services .second .card::after{
+                                            content: "";
+                                            position: absolute;
+                                            inset: 3px;
+                                            background: #111;
+                                            border-radius: 5px;
+                                            z-index: 2;                                     
+}
+
+.services .second .card p, 
+.services .second .card img,
+.services .second .card button{
+                             position: relative;
+                             z-index: 3;        
+}
+
+.services .second:hover{
+                              animation-play-state: paused;
+}
+
+
+
+@keyframes spin {
+                           to{
+                                   transform: rotate(360deg);
+                           }
+}
+
+
+.services .second .card img{
+                                 padding: 10px;
+                                 border-radius: 20px;
+                                 height: 50%;
+                                 width: 280px;
+}
+
+.services .second .card p{
+                           text-align: center;
+                           color: burlywood;
+}
+.services .second .card button{
+                                  padding: 6px 20px;
+                                  margin-left: 100px;
+                                  margin-top: 20px;
+                                  background-color: aquamarine;
+                                  border: none;
+                                  border-radius: 50px;
+                                  font-weight: 700;
+                                  position: absolute;
+}
+      
+/* From Here Code is for About */
+.About{
+              height: 80vh;
+              width: 100%;
+              background-color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-image: url(./images/20250205085222_2.webp);
+              background-size: cover;
+              background-position: center;
+}
+
+.About .about-class{
+                        height: 300px;
+                        width: 850px;
+                        background: linear-gradient(transparent);
+                        color: white;
+                        box-shadow: 0 0 15px 5px white;
+                        text-align: center;
+                        border-radius: 90px;
+                        padding: 20px;
+                        animation: move 4s ease  infinite alternate;
+}
+
+@keyframes move {
+                         0%{
+                             transform: translate(-180px);
+                         } 
+                             100%{
+                                             transform: translate(180px);
+                             }   
+}
+
+
+.About .about-class h1{
+                            text-align: center;
+                            font-size: 40px;
+                            font-weight: 600;
+}
+
+.About .about-class p{
+                           text-align: center;
+                           line-height: 40px;
+                           font-size: 20px;
+                           margin-top: 15px;
+                           color: yellow;
+}
+
+.About .about-class h3{
+                             text-align: end;
+                             margin-right: 100px;
+                             margin-top: 90px;
+}
+
+           
+/* From Here Code is for gallery */
+.gallery{
+                    height: 90vh;
+                    width: 100%;
+                    background-color: cadetblue;
+}
+
+.gallery .first h1{
+                          text-align: center;
+                          color: white;
+                          font-size: 40px;
+}
+
+.gallery .second{
+                         display: grid;
+                         grid-template-columns:repeat(4,1fr);
+                         /* grid-template-rows: repeat(3,1fr); */
+                         gap: 10px;
+                         margin-left: 20px;
+                         margin-top: 30px;
+}
+
+.gallery .second .card{
+                             height: 200px;
+                             width: 250px;
+                             position: relative;
+}
+
+.gallery .second .card img{
+                                 height: inherit;
+                                 border-radius: 20px;
+                                 box-shadow: 0px 0px 5px 4px white;
+                                 width: 290px;                               
+}
+
+.gallery .second .card h1{
+                               color: white;
+                               position: absolute;
+                               top: 20px;
+                               left: 90px;
+                               font-weight: 400;
+}
+
+
+/*  From Here Code is for Policy */
+.footer{
+              height: 50vh;
+              width: 100%;
+              background-color: black;
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+}
+
+.footer .cards{
+                                height: 300px;
+                                width: 250px;
+                                background-color: black;
+                                color: white;
+                                list-style: none;
+}
+
+.footer .cards h3{
+                         font-size: 25px;
+                         text-decoration: underline;
+}
+
+.cards.first{
+                       height: 150px;
+                       width: inherit;
+                       background-color: yellow;
+                       display: flex;
+                       align-items: center;
+                       justify-content: space-evenly;
+}
+
+.footer .cards i{
+                             font-size: 50px;
+}
+
+.footer .cards i:hover{
+                              text-shadow: 0 0 10px orange, 0 0 10px orange, 0 0 10px orange;
+}
