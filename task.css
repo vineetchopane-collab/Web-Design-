@@ -1,0 +1,240 @@
+.parent{
+               height: 110vh;
+               width: 100%;
+               background-color:bisque;
+               padding: 10px;
+               display: grid;
+               grid-template-columns: repeat(6,1fr);
+               grid-template-rows: repeat(8,1fr);
+               gap: 5px;
+               border: 5px solid;
+}
+
+.parent .child{
+                   background-color: burlywood;
+                    border: 5px solid;
+                    text-align: center;
+                    color: black;      
+                    /* box-shadow: 0px 0px 5px 0px;  */
+                    border-radius: 10px;
+}
+                    
+
+ .one{
+       grid-column-start: 1;
+       grid-column-end: 10; 
+       background-image: url(https://tse3.mm.bing.net/th/id/OIP.Izr6b-kQJztPjVdq5M4MPgHaEK?pid=Api&P=0&h=180);
+       background-position: center;
+       /* background-size: cover; */
+} 
+
+.seven{
+         grid-row-start: 4;
+         grid-row-end: 10;
+         background-image: url(https://images.thequint.com/thequint/2023-08/b05baf5a-4375-4241-8244-99309aeaefe1/Prannoy_HS_with_his_BWF_World_Championships_Bronze_medal.jpg?auto=format%2Ccompress&fmt=webp&width=720&w=1200);
+         background-position: center;
+         background-size: cover;
+        
+}
+
+.five{
+        grid-column-start: 5;
+        grid-column-end: 10;
+        background-image: url(https://media.assettype.com/freepressjournal/2022-12/76412bcb-4da4-4625-a8b6-2100f5db1083/SANJEEV_.jpg);
+        background-position: center;
+        background-size: cover;
+}
+
+.ten{
+       grid-column-start: 5;
+       grid-column-end: 10;
+       background-image: url(https://staticg.sportskeeda.com/editor/2021/06/8ed51-16239134785209-800.jpg);
+       background-position: center;
+       background-size: cover;
+}
+
+.six{
+       grid-column-start: 5;
+       grid-column-end: 10;
+       background-image: url(https://images.moneycontrol.com/static-mcnews/2025/12/20251217101105_GK.jpg);
+       background-position: center;
+       background-size: cover;
+       
+}
+
+.thirteen{
+             grid-row-start: 3;
+             grid-row-end: 10;
+             background-image: url(https://media.newindianexpress.com/newindianexpress%2F2025-09-15%2Fka6b4zo7%2FHomebound_3.jpg?w=480&auto=format%2Ccompress&fit=max);
+             background-position: center;
+             background-size: cover;
+}
+
+.twenty{
+             grid-column-start: 1;
+             grid-column-end: 10;       
+             background-image: url(https://files.prokerala.com/news/photos/imgs/1024/australian-open-with-top-stars-pulling-out-all-eyes-on-sameer-varma-1475757.jpg);
+             background-position: center;
+             background-size: cover; 
+    
+ 
+ 
+}
+
+.four{
+        grid-row-start: 3;
+        grid-row-end: 10;
+        background-image: url(https://www.dvdsreleasedates.com/images/orig/K/Kalki-2898-AD-2024.jpg);
+        background-position: center;
+        background-size: cover;
+}
+
+.eleven{
+          grid-row-start: 3;
+          grid-row-end: 10;
+          background-image: url(https://e0.pxfuel.com/wallpapers/891/825/desktop-wallpaper-rrr-movie-ram-charan-first-look-poster.jpg);
+          background-position: center;
+          background-size: cover;
+}
+
+.twelve{
+         grid-column-start: 5;
+         grid-column-end: 10;
+         background-image: url(https://www.thestatesman.com/wp-content/uploads/2023/10/Vikas-Khanna.jpg);
+         background-position: center;
+         background-size: cover;
+}
+
+.fourteen{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-image: url(https://d2zfbyesi0qka0.cloudfront.net/wp-content/uploads/2025/07/Mahavatar-Narasimha.jpg);
+            background-position: center;
+            background-size: cover;
+       
+}
+
+.eighteen{
+                /* grid-column-start: 1; */
+                /* grid-column-end: 5; */
+}
+
+.two{
+          grid-column-start: 1;
+          grid-column-end: 2;
+          background-image: url(https://thebridge.in/h-upload/2024/07/09/55181-pv-sindhu.webp);
+          background-position: center;
+          background-size: cover;
+}
+
+.three{
+         grid-column-start: 3;
+         grid-column-end: 5;
+         background-image: url(https://www.nagpurtrends.com/uploads/thumbs/86nOfc-IMG_20190129_141539-l-thumb.jpeg);
+         background-position: center;
+         background-size: cover;
+}
+
+.nine{
+         grid-row-start: 4;
+         grid-row-end: 2;
+         background-image: url(https://en-media.thebetterindia.com/uploads/2024/08/Untitled-design_11zon-1722608520.jpg);
+         background-position: center;
+         background-size: cover;
+}
+
+.fifteen{
+             /* grid-row-start:7; */
+             /* grid-row-end: 9; */
+             height: 110px;
+             background-image: url(https://www.m9.news/wp-content/uploads/2024/04/the-goat-life-ott.jpg);
+             background-position: center;
+             background-size: cover;
+}
+
+.sixteen{
+           /* grid-row-start: 5; */
+           /* grid-row-end: 4; */
+           background-image: url(https://static.toiimg.com/thumb/msid-95313613,width-1070,height-580,imgsize-39360,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg);
+           background-position: center;
+           background-size: cover;
+           font-size: small;
+           text-align: left;
+}
+
+.fourteen h1{
+              color: white;
+              text-align: left;
+}
+
+.seven h1{
+              color: white;
+}
+
+.four h1{
+              color: white;
+              text-align: left;
+              
+}
+
+.fifteen h1{
+                color: white;
+                font-size: small;
+}
+
+.ten h1{
+              color: white;
+              text-align: right;
+              color: red;
+}
+
+.five h1{
+               color: black;
+               text-align: left;
+               text-shadow: 5px;
+}
+
+.three h1{
+           color: black;
+           text-align: left;
+           
+}
+
+.thirteen h1{
+                    color: white;
+}
+
+.nine h1{
+                    color: white;
+                    text-align: left;
+}
+
+.twelve {
+                color: black;
+                text-align: start;
+}
+
+.eleven h1{ 
+               color: white;
+}
+
+.six h1{
+              color: black;
+              text-align: left;
+}
+
+.two h1{
+            color: white;
+            font-size: large;
+            text-align: left;
+}
+
+.twenty h1{
+                     color: orange;
+                     text-align: right;
+          
+}
+            
+
+
+
